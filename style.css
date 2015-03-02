@@ -1,0 +1,213 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	behavior: url(http://www.johnfgilligan.com/iepngfix.htc)
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #2F5B7F;
+}
+
+h2 {
+	margin-top:5px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+h3 {
+	font-size:16px;
+	font-weight:bold;
+}
+h4 {
+	font-size:14px;
+	font-weight:bold;
+}
+h5 {
+	font-size:13px;
+	font-weight:bold;
+}
+
+a, a:visited {
+	color:#2F5B7F;
+	font-weight:bold;
+}
+
+a:hover {
+	color:#BA7D81;
+}
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #555;
+	background:#F2ECE6;
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	width:760px;
+	text-align:left;	
+	
+}
+
+#header {
+	height:334px;
+	background: url(images/header.jpg) top center no-repeat;
+	background-color:#FFFFFF;
+}
+
+#header ul {
+	padding: 301px 0 0 5px;
+	float:left;
+	font-size:12px;	
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#header ul li {
+	display:inline;	
+	
+	
+}
+
+#header ul li a{
+	float:left;
+	display:block;	
+	padding:8px 20px 9px 20px;
+	color: #305B80;
+	border-right:1px solid #E8E8E8;
+	text-decoration:none;	
+}
+
+#header ul li a:hover {
+	color:#BD8183;
+
+}
+
+#header ul li a.active{
+	color:#BD8183;
+	
+	
+}
+
+#header ul li a.jcc1 {
+	color:#BD8183;
+	
+}
+
+#wrapper{
+	margin:0 auto;
+}
+
+#content {
+	width:760px;
+	float:left;
+	background: url(images/contentbg.jpg) top center;
+	
+}
+
+#content-right {
+	float:left;
+	font-size:11px;	
+	font-weight:bold;
+	background: url(images/sidebg.jpg) top left  no-repeat;
+	width:190px;
+	padding-left:10px;
+	padding-top:15px;
+	
+}
+
+#nav-right{
+font-family:Arial, Helvetica, sans-serif;
+margin:0 auto;
+}
+
+#nav-right ul{
+list-style-type:none;
+margin:0;
+padding:0;
+
+}
+
+#nav-right ul li{
+display:block;
+text-align:center;
+padding:13px 0;
+border-bottom:1px dashed #E8E8E8;
+width:190px;
+}
+
+#nav-right ul li a{
+color:#305B80;
+text-decoration:none;
+}
+
+#nav-right ul li a:hover{
+color:#BD8183;
+text-decoration:none;
+}
+
+#nav-right ul li a.active12{
+color:#BD8183;
+text-decoration:none;
+}
+
+
+#content-left {
+	float:left;
+	width:492px;
+	padding-left:50px;		
+	margin:0 auto;
+}
+
+
+#content img.img {
+	position:relative;
+	float:left;
+}
+
+#content img.img2 {
+	position:relative;
+	float:right;
+}
+
+#footer {
+	margin:0 auto;	
+	height:102px;
+	width:760px;
+	background: url(images/footer.jpg) top center no-repeat;
+	clear:both;
+}
+
+#footer p {
+padding:50px 0 0 0;
+font-size:9px;
+margin:0 auto;
+}
+
+
+.clear{clear:both;}
+
+
+#contact-form {
+    margin-top: 1em;
+}
+
+
+/* From the old contact form */
+#contact-form label {
+	float: left;
+	width: 100px;
+	clear: both;
+}
+
+#contact-form input, #contact-form textarea {
+	width: 300px;
+	border: 1px solid #ddd;
+	background: #FFFEF6;
+	padding: 3px;
+	color: #777;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.0em;
+}
